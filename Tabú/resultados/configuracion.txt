@@ -1,0 +1,37 @@
+CONFIGURACION DEL EXPERIMENTO - BUSQUEDA TABU FJSP
+Generado: 2026-06-26 23:07:35
+
+[Parametros del experimento]
+  Metaheuristica           : Busqueda Tabu (Tabu Search)
+  Objetivo                 : minimizar makespan (Cmax)
+  Instancias totales       : 31
+  Repeticiones por instancia: 5
+  Tiempo por ejecucion (s) : 60
+  Semilla base             : 100
+  Semillas utilizadas      : 100, 101, 102, 103, 104
+
+[Benchmarks evaluados]
+  Hurink (edata)  : la01, la06, la11, la16, la21
+  Hurink (rdata)  : la01, la06, la11, la16, la21
+  Hurink (vdata)  : la01, la06, la11, la16, la21
+  Brandimarte     : Mk01, Mk02, Mk03, Mk04, Mk05, Mk06, Mk07, Mk08, Mk09, Mk10
+  Dauzere         : 01a, 04a, 07a, 10a, 13a, 16a
+
+[Parametros por defecto de la metaheuristica]
+  Tenencia tabu            : dinamica, escalada ~ sqrt(n_operaciones)
+  Vecindarios              : N1 reasignacion, N2 intercambio, N3 reubicacion
+  Maximo de vecinos/iter   : 300 (muestreo aleatorio si se supera)
+  Iter. sin mejora p/diver.: 40
+  Criterio de aspiracion   : se acepta movimiento tabu si mejora el mejor global
+  Solucion inicial         : multi-inicio con balanceo de carga
+
+[Hardware detectado]
+  Sistema operativo        : Windows 11
+  Arquitectura             : AMD64
+  Procesador               : AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+  Nucleos logicos          : 12
+  Memoria RAM total        : 11.3 GB
+
+[Entorno de ejecucion]
+  Python                   : 3.13.2 (CPython)
+  openpyxl disponible      : si
