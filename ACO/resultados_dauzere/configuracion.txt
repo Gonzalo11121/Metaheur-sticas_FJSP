@@ -1,0 +1,36 @@
+CONFIGURACION DEL EXPERIMENTO
+==================================================
+Fecha              : 2026-06-28 19:55:31
+
+Metaheuristica
+--------------------------------------------------
+  Algoritmo        : Colonia de Hormigas (ACO)
+  Variante         : MAX-MIN Ant System (MMAS)
+  Objetivo         : minimizar makespan (Cmax)
+
+Parametros
+--------------------------------------------------
+  Hormigas         : 30
+  alpha            : 1.0
+  beta             : 2.0
+  rho              : 0.1
+  q0               : 0.0
+  Busqueda local   : si
+  Presupuesto/rep  : 60.0 s
+  Repeticiones     : 5
+  Semillas         : [100, 101, 102, 103, 104]
+
+Benchmarks
+--------------------------------------------------
+  Dauzere     : 6 instancias (Dauzere)
+
+Hardware
+--------------------------------------------------
+  Sistema          : Linux 6.6.122+
+  Arquitectura     : x86_64
+  Procesador       : x86_64
+  Nucleos fisicos  : 1
+  Nucleos logicos  : 2
+  Frecuencia (MHz) : 2200.0
+  RAM (GB)         : 12.67
+  Python           : 3.12.13
