@@ -1,0 +1,29 @@
+======================================================================
+CONFIGURACION DEL EXPERIMENTO
+======================================================================
+Fecha/hora de la corrida : 2026-06-26 17:44:21
+Duracion total           : 9300.4 s (155.01 min)
+
+Metaheuristica            : Algoritmo Genetico (AG)
+Repeticiones por instancia: 5
+Semillas (base 100)        : [100, 101, 102, 103, 104]
+Presupuesto por ejecucion : 60 segundos (uniforme)
+Total de instancias       : 31
+Total de ejecuciones      : 155
+
+Benchmarks incluidos:
+  - Hurink_edata  : 5 instancias -> la01, la06, la11, la16, la21
+  - Hurink_rdata  : 5 instancias -> la01, la06, la11, la16, la21
+  - Hurink_vdata  : 5 instancias -> la01, la06, la11, la16, la21
+  - Brandimarte   : 10 instancias -> Mk01, Mk02, Mk03, Mk04, Mk05, Mk06, Mk07, Mk08, Mk09, Mk10
+  - Dauzere       : 6 instancias -> 01a, 04a, 07a, 10a, 13a, 16a
+
+----------------------------------------------------------------------
+ENTORNO DE EJECUCION (detectado automaticamente)
+----------------------------------------------------------------------
+Sistema operativo  : Windows 10 (10.0.19045)
+Arquitectura       : AMD64
+Procesador         : AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+Nucleos logicos    : 12
+Python             : 3.11.9 (CPython)
+======================================================================
