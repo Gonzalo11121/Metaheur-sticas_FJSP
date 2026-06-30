@@ -1,0 +1,27 @@
+============================================================
+  CONFIGURACION DEL EXPERIMENTO
+  2026-06-26  20:09:34
+============================================================
+
+  Algoritmo    : TS+VNS con agitacion adaptativa
+  Repeticiones : 5
+  Semilla base : 100  (semillas 100..104)
+
+  Parametros:
+    max_iter            : 40
+    k_max               : 4
+    tabu_iter           : 40
+    tenencia            : 10
+    tiempo_limite       : 60
+
+  Instancias:
+    Hurink      : 15 (edata/rdata/vdata x 5)
+    Brandimarte : 10
+    Dauzere     : 6
+
+  Entorno:
+    procesador    : Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+    sistema       : Windows 10
+    python        : Python 3.11.9
+
+============================================================
