@@ -1,0 +1,7 @@
+instancia,jobs,maquinas,operaciones,makespan_mejor,makespan_promedio,tiempo_total_s
+01a.fjs,10,5,196,2574,2584.8,167.53
+04a.fjs,10,5,196,2565,2593.8,159.12
+07a.fjs,15,8,293,2474,2495.4,362.98
+10a.fjs,15,8,293,2475,2520.6,348.94
+13a.fjs,20,10,387,2498,2514.0,667.78
+16a.fjs,20,10,387,2470,2500.4,666.23

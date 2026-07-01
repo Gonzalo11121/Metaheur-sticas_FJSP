@@ -1,0 +1,6 @@
+instancia,jobs,maquinas,operaciones,makespan_mejor,makespan_promedio,tiempo_total_s
+la01.txt,10,5,50,609,614.2,6.86
+la06.txt,15,5,75,833,833.0,17.83
+la11.txt,20,5,100,1104,1115.2,33.85
+la16.txt,10,10,100,915,917.4,27.87
+la21.txt,15,10,150,1071,1092.4,66.46
